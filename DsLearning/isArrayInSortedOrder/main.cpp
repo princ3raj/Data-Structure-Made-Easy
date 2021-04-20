@@ -5,10 +5,16 @@
 //  Created by princeraj on 17/04/21.
 //
 
+/*
+ 
+ Given an array, check whether the array is in sorted order with recursion.
+ Time Complexity: O(n). Space Complexity: O(n) for recursive stack space.
+ */
+
 #include <iostream>
 using namespace std;
 
-//Time Complexity: O(n). Space Complexity: O(n) for recursive stack space.
+
 
 
 int isArrayInSortedOrder(int arr[],int n){

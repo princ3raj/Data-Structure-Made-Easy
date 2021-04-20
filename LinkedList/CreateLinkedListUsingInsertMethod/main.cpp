@@ -1,14 +1,14 @@
 //
 //  main.cpp
-//  DsLearning
+//  CreateLinkedListUsingInsertMethod
 //
-//  Created by princeraj on 17/04/21.
+//  Created by princeraj on 20/04/21.
 //
 
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, Data Structures Made Easy!\n";
+    std::cout << "Hello, World!\n";
     return 0;
 }
