@@ -108,10 +108,7 @@ void DijkstraAlgorithAPSP(int P[M][N]){
                 
                 
                 P[i][j]=FindMinimum(P[i][j], P[i][k]+P[k][j]);
-                
-                
-                
-                
+
                 
             }
         }
@@ -168,6 +165,8 @@ int main() {
         {5,INF,0,1},
         {2,INF,INF,0}
     };
+    
+  
     
     PathMatrix(A);
     

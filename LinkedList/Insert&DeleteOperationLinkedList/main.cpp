@@ -10,7 +10,7 @@
  
  this module contains all the method for inserting in a linked list like inserting at first, last and mid and even there's a combine function which can do all
  
- 
+ also it contains deleting at first and at given position
  
  */
 
@@ -26,6 +26,9 @@ struct Node{
     struct Node *next;
     
 }*first=NULL;
+
+
+
 
 
 void CreateLinkedList(int arr[], int n){
@@ -125,6 +128,38 @@ void insertElementAtAnywhereInLinkedList(Node *p,int number,int position){
 }
 
 
+/*
+ Delete Operation Functions
+ */
+
+void DeleteAtFirstPosition(Node *p){
+    
+    
+    first=p->next;
+    delete p;
+    
+}
+
+void DeleteAtGivenPosition(Node *p,int position){
+    Node *q=NULL;
+    while(position>1){
+        
+        q=p;
+        p=p->next;
+       
+      
+        
+        position--;
+        
+        
+    }
+    q->next=p->next;
+    delete p;
+
+}
+
+
+
 
 
 int main() {
@@ -184,8 +219,30 @@ int main() {
     RecursiveDisplay(first);
     cout<<endl;
     
+//    DeleteAtFirstPosition(first);
+//    RecursiveDisplay(first);
+//    cout<<endl;
+//
+//    DeleteAtFirstPosition(first);
+//    RecursiveDisplay(first);
+//    cout<<endl;
     
-  
+    cout<<"Deletion start from here on:"<<endl;
+   
+    
+
+    DeleteAtGivenPosition(first,3);
+    RecursiveDisplay(first);
+    cout<<endl;
+    
+    DeleteAtGivenPosition(first,12);
+    RecursiveDisplay(first);
+    cout<<endl;
+    
+    DeleteAtGivenPosition(first,5);
+    RecursiveDisplay(first);
+    cout<<endl;
+    
     
     
 

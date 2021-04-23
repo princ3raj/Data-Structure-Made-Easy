@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE67EDCC2632C1A90025E24B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE67EDCB2632C1A90025E24B /* main.cpp */; };
+		EE8F36F1262FFB090049691C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE8F36F0262FFB090049691C /* main.cpp */; };
+		EE912E4C2631669300279CCB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE912E4B2631669300279CCB /* main.cpp */; };
 		EEE6C1C9262E6D6F007F2490 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C1C8262E6D6F007F2490 /* main.cpp */; };
 		EEE6C1D7262E9AC7007F2490 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C1D6262E9AC7007F2490 /* main.cpp */; };
 		EEE6C1E4262ECDDC007F2490 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C1E3262ECDDC007F2490 /* main.cpp */; };
@@ -14,6 +17,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EE67EDC72632C1A80025E24B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE8F36EC262FFB090049691C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE912E472631669300279CCB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EEE6C1C3262E6D6F007F2490 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +83,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE67EDC92632C1A80025E24B /* ConcatenateLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConcatenateLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE67EDCB2632C1A90025E24B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE8F36EE262FFB090049691C /* CheckLInkedListSortedOrNot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CheckLInkedListSortedOrNot; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F36F0262FFB090049691C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE912E492631669300279CCB /* RemoveDuplicatesInLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RemoveDuplicatesInLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE912E4B2631669300279CCB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EEE6C1C5262E6D6F007F2490 /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE6C1C8262E6D6F007F2490 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EEE6C1D4262E9AC7007F2490 /* SearchingInLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SearchingInLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +100,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EE67EDC62632C1A80025E24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F36EB262FFB090049691C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE912E462631669300279CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEE6C1C2262E6D6F007F2490 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +152,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE67EDCA2632C1A80025E24B /* ConcatenateLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE67EDCB2632C1A90025E24B /* main.cpp */,
+			);
+			path = ConcatenateLinkedList;
+			sourceTree = "<group>";
+		};
+		EE8F36EF262FFB090049691C /* CheckLInkedListSortedOrNot */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F36F0262FFB090049691C /* main.cpp */,
+			);
+			path = CheckLInkedListSortedOrNot;
+			sourceTree = "<group>";
+		};
+		EE912E4A2631669300279CCB /* RemoveDuplicatesInLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE912E4B2631669300279CCB /* main.cpp */,
+			);
+			path = RemoveDuplicatesInLinkedList;
+			sourceTree = "<group>";
+		};
 		EEE6C1BC262E6D6F007F2490 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +183,9 @@
 				EEE6C1D5262E9AC7007F2490 /* SearchingInLinkedList */,
 				EEE6C1E2262ECDDC007F2490 /* Insert&DeleteOperationLinkedList */,
 				EEE6C1F0262F091F007F2490 /* CreateLinkedListUsingInsertMethod */,
+				EE8F36EF262FFB090049691C /* CheckLInkedListSortedOrNot */,
+				EE912E4A2631669300279CCB /* RemoveDuplicatesInLinkedList */,
+				EE67EDCA2632C1A80025E24B /* ConcatenateLinkedList */,
 				EEE6C1C6262E6D6F007F2490 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +197,9 @@
 				EEE6C1D4262E9AC7007F2490 /* SearchingInLinkedList */,
 				EEE6C1E1262ECDDC007F2490 /* Insert&DeleteOperationLinkedList */,
 				EEE6C1EF262F091F007F2490 /* CreateLinkedListUsingInsertMethod */,
+				EE8F36EE262FFB090049691C /* CheckLInkedListSortedOrNot */,
+				EE912E492631669300279CCB /* RemoveDuplicatesInLinkedList */,
+				EE67EDC92632C1A80025E24B /* ConcatenateLinkedList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +239,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EE67EDC82632C1A80025E24B /* ConcatenateLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE67EDCF2632C1A90025E24B /* Build configuration list for PBXNativeTarget "ConcatenateLinkedList" */;
+			buildPhases = (
+				EE67EDC52632C1A80025E24B /* Sources */,
+				EE67EDC62632C1A80025E24B /* Frameworks */,
+				EE67EDC72632C1A80025E24B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcatenateLinkedList;
+			productName = ConcatenateLinkedList;
+			productReference = EE67EDC92632C1A80025E24B /* ConcatenateLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE8F36ED262FFB090049691C /* CheckLInkedListSortedOrNot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F36F4262FFB090049691C /* Build configuration list for PBXNativeTarget "CheckLInkedListSortedOrNot" */;
+			buildPhases = (
+				EE8F36EA262FFB090049691C /* Sources */,
+				EE8F36EB262FFB090049691C /* Frameworks */,
+				EE8F36EC262FFB090049691C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckLInkedListSortedOrNot;
+			productName = CheckLInkedListSortedOrNot;
+			productReference = EE8F36EE262FFB090049691C /* CheckLInkedListSortedOrNot */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE912E482631669300279CCB /* RemoveDuplicatesInLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE912E4F2631669300279CCB /* Build configuration list for PBXNativeTarget "RemoveDuplicatesInLinkedList" */;
+			buildPhases = (
+				EE912E452631669300279CCB /* Sources */,
+				EE912E462631669300279CCB /* Frameworks */,
+				EE912E472631669300279CCB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoveDuplicatesInLinkedList;
+			productName = RemoveDuplicatesInLinkedList;
+			productReference = EE912E492631669300279CCB /* RemoveDuplicatesInLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
 		EEE6C1C4262E6D6F007F2490 /* LinkedList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEE6C1CC262E6D6F007F2490 /* Build configuration list for PBXNativeTarget "LinkedList" */;
@@ -228,6 +366,15 @@
 			attributes = {
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					EE67EDC82632C1A80025E24B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE8F36ED262FFB090049691C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE912E482631669300279CCB = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					EEE6C1C4262E6D6F007F2490 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -259,11 +406,38 @@
 				EEE6C1D3262E9AC7007F2490 /* SearchingInLinkedList */,
 				EEE6C1E0262ECDDC007F2490 /* Insert&DeleteOperationLinkedList */,
 				EEE6C1EE262F091F007F2490 /* CreateLinkedListUsingInsertMethod */,
+				EE8F36ED262FFB090049691C /* CheckLInkedListSortedOrNot */,
+				EE912E482631669300279CCB /* RemoveDuplicatesInLinkedList */,
+				EE67EDC82632C1A80025E24B /* ConcatenateLinkedList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EE67EDC52632C1A80025E24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67EDCC2632C1A90025E24B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F36EA262FFB090049691C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F36F1262FFB090049691C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE912E452631669300279CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE912E4C2631669300279CCB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEE6C1C1262E6D6F007F2490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +473,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		EE67EDCD2632C1A90025E24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE67EDCE2632C1A90025E24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE8F36F2262FFB090049691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE8F36F3262FFB090049691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE912E4D2631669300279CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE912E4E2631669300279CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EEE6C1CA262E6D6F007F2490 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -477,6 +699,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EE67EDCF2632C1A90025E24B /* Build configuration list for PBXNativeTarget "ConcatenateLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE67EDCD2632C1A90025E24B /* Debug */,
+				EE67EDCE2632C1A90025E24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8F36F4262FFB090049691C /* Build configuration list for PBXNativeTarget "CheckLInkedListSortedOrNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F36F2262FFB090049691C /* Debug */,
+				EE8F36F3262FFB090049691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE912E4F2631669300279CCB /* Build configuration list for PBXNativeTarget "RemoveDuplicatesInLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE912E4D2631669300279CCB /* Debug */,
+				EE912E4E2631669300279CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EEE6C1C0262E6D6F007F2490 /* Build configuration list for PBXProject "LinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
