@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0102EC263520DD00131AB5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE0102EB263520DD00131AB5 /* main.cpp */; };
+		EE0103032635708300131AB5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE0103022635708300131AB5 /* main.cpp */; };
+		EE01031B26359D0F00131AB5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE01031A26359D0F00131AB5 /* main.cpp */; };
+		EE2159142633D9CB002CC2B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE2159132633D9CB002CC2B7 /* main.cpp */; };
+		EE21592826340AAB002CC2B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE21592726340AAB002CC2B7 /* main.cpp */; };
+		EE21593D263425D2002CC2B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE21593C263425D2002CC2B7 /* main.cpp */; };
+		EE596D9926367F75005FB14D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE596D9826367F75005FB14D /* main.cpp */; };
 		EE67EDCC2632C1A90025E24B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE67EDCB2632C1A90025E24B /* main.cpp */; };
+		EE67EDDE2632FAC30025E24B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE67EDDD2632FAC30025E24B /* main.cpp */; };
 		EE8F36F1262FFB090049691C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE8F36F0262FFB090049691C /* main.cpp */; };
 		EE912E4C2631669300279CCB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE912E4B2631669300279CCB /* main.cpp */; };
 		EEE6C1C9262E6D6F007F2490 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C1C8262E6D6F007F2490 /* main.cpp */; };
@@ -17,7 +25,79 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EE0102E7263520DC00131AB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE0102FE2635708300131AB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE01031626359D0F00131AB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE21590F2633D9CB002CC2B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE21592326340AAB002CC2B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE215938263425D2002CC2B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE596D9426367F75005FB14D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EE67EDC72632C1A80025E24B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE67EDD92632FAC30025E24B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -83,8 +163,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE0102E9263520DC00131AB5 /* UnrolledLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnrolledLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0102EB263520DD00131AB5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE0103002635708300131AB5 /* SkipList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SkipList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0103022635708300131AB5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE01031826359D0F00131AB5 /* StackImplementationUsingLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StackImplementationUsingLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE01031A26359D0F00131AB5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE2159112633D9CB002CC2B7 /* CreateDoublyLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CreateDoublyLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2159132633D9CB002CC2B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE21592526340AAB002CC2B7 /* CircularDoublyLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CircularDoublyLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE21592726340AAB002CC2B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE21593A263425D2002CC2B7 /* DoublyLinkedListUsingOnePointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DoublyLinkedListUsingOnePointer; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE21593C263425D2002CC2B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE596D9626367F75005FB14D /* FindNthNodeFromLastInLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FindNthNodeFromLastInLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE596D9826367F75005FB14D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE67EDC92632C1A80025E24B /* ConcatenateLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConcatenateLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE67EDCB2632C1A90025E24B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE67EDDB2632FAC30025E24B /* CheckLinkedListIsInLoopOrNot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CheckLinkedListIsInLoopOrNot; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE67EDDD2632FAC30025E24B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE8F36EE262FFB090049691C /* CheckLInkedListSortedOrNot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CheckLInkedListSortedOrNot; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8F36F0262FFB090049691C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE912E492631669300279CCB /* RemoveDuplicatesInLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RemoveDuplicatesInLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +196,63 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EE0102E6263520DC00131AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0102FD2635708300131AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01031526359D0F00131AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE21590E2633D9CB002CC2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE21592226340AAB002CC2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE215937263425D2002CC2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE596D9326367F75005FB14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE67EDC62632C1A80025E24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE67EDD82632FAC30025E24B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -152,12 +304,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE0102EA263520DD00131AB5 /* UnrolledLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE0102EB263520DD00131AB5 /* main.cpp */,
+			);
+			path = UnrolledLinkedList;
+			sourceTree = "<group>";
+		};
+		EE0103012635708300131AB5 /* SkipList */ = {
+			isa = PBXGroup;
+			children = (
+				EE0103022635708300131AB5 /* main.cpp */,
+			);
+			path = SkipList;
+			sourceTree = "<group>";
+		};
+		EE01031926359D0F00131AB5 /* StackImplementationUsingLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE01031A26359D0F00131AB5 /* main.cpp */,
+			);
+			path = StackImplementationUsingLinkedList;
+			sourceTree = "<group>";
+		};
+		EE2159122633D9CB002CC2B7 /* CreateDoublyLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE2159132633D9CB002CC2B7 /* main.cpp */,
+			);
+			path = CreateDoublyLinkedList;
+			sourceTree = "<group>";
+		};
+		EE21592626340AAB002CC2B7 /* CircularDoublyLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE21592726340AAB002CC2B7 /* main.cpp */,
+			);
+			path = CircularDoublyLinkedList;
+			sourceTree = "<group>";
+		};
+		EE21593B263425D2002CC2B7 /* DoublyLinkedListUsingOnePointer */ = {
+			isa = PBXGroup;
+			children = (
+				EE21593C263425D2002CC2B7 /* main.cpp */,
+			);
+			path = DoublyLinkedListUsingOnePointer;
+			sourceTree = "<group>";
+		};
+		EE596D9726367F75005FB14D /* FindNthNodeFromLastInLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE596D9826367F75005FB14D /* main.cpp */,
+			);
+			path = FindNthNodeFromLastInLinkedList;
+			sourceTree = "<group>";
+		};
 		EE67EDCA2632C1A80025E24B /* ConcatenateLinkedList */ = {
 			isa = PBXGroup;
 			children = (
 				EE67EDCB2632C1A90025E24B /* main.cpp */,
 			);
 			path = ConcatenateLinkedList;
+			sourceTree = "<group>";
+		};
+		EE67EDDC2632FAC30025E24B /* CheckLinkedListIsInLoopOrNot */ = {
+			isa = PBXGroup;
+			children = (
+				EE67EDDD2632FAC30025E24B /* main.cpp */,
+			);
+			path = CheckLinkedListIsInLoopOrNot;
 			sourceTree = "<group>";
 		};
 		EE8F36EF262FFB090049691C /* CheckLInkedListSortedOrNot */ = {
@@ -186,6 +402,14 @@
 				EE8F36EF262FFB090049691C /* CheckLInkedListSortedOrNot */,
 				EE912E4A2631669300279CCB /* RemoveDuplicatesInLinkedList */,
 				EE67EDCA2632C1A80025E24B /* ConcatenateLinkedList */,
+				EE67EDDC2632FAC30025E24B /* CheckLinkedListIsInLoopOrNot */,
+				EE2159122633D9CB002CC2B7 /* CreateDoublyLinkedList */,
+				EE21592626340AAB002CC2B7 /* CircularDoublyLinkedList */,
+				EE21593B263425D2002CC2B7 /* DoublyLinkedListUsingOnePointer */,
+				EE0102EA263520DD00131AB5 /* UnrolledLinkedList */,
+				EE0103012635708300131AB5 /* SkipList */,
+				EE01031926359D0F00131AB5 /* StackImplementationUsingLinkedList */,
+				EE596D9726367F75005FB14D /* FindNthNodeFromLastInLinkedList */,
 				EEE6C1C6262E6D6F007F2490 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -200,6 +424,14 @@
 				EE8F36EE262FFB090049691C /* CheckLInkedListSortedOrNot */,
 				EE912E492631669300279CCB /* RemoveDuplicatesInLinkedList */,
 				EE67EDC92632C1A80025E24B /* ConcatenateLinkedList */,
+				EE67EDDB2632FAC30025E24B /* CheckLinkedListIsInLoopOrNot */,
+				EE2159112633D9CB002CC2B7 /* CreateDoublyLinkedList */,
+				EE21592526340AAB002CC2B7 /* CircularDoublyLinkedList */,
+				EE21593A263425D2002CC2B7 /* DoublyLinkedListUsingOnePointer */,
+				EE0102E9263520DC00131AB5 /* UnrolledLinkedList */,
+				EE0103002635708300131AB5 /* SkipList */,
+				EE01031826359D0F00131AB5 /* StackImplementationUsingLinkedList */,
+				EE596D9626367F75005FB14D /* FindNthNodeFromLastInLinkedList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,6 +471,125 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EE0102E8263520DC00131AB5 /* UnrolledLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0102EF263520DD00131AB5 /* Build configuration list for PBXNativeTarget "UnrolledLinkedList" */;
+			buildPhases = (
+				EE0102E5263520DC00131AB5 /* Sources */,
+				EE0102E6263520DC00131AB5 /* Frameworks */,
+				EE0102E7263520DC00131AB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnrolledLinkedList;
+			productName = UnrolledLinkedList;
+			productReference = EE0102E9263520DC00131AB5 /* UnrolledLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE0102FF2635708300131AB5 /* SkipList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0103042635708300131AB5 /* Build configuration list for PBXNativeTarget "SkipList" */;
+			buildPhases = (
+				EE0102FC2635708300131AB5 /* Sources */,
+				EE0102FD2635708300131AB5 /* Frameworks */,
+				EE0102FE2635708300131AB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkipList;
+			productName = SkipList;
+			productReference = EE0103002635708300131AB5 /* SkipList */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE01031726359D0F00131AB5 /* StackImplementationUsingLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE01031C26359D0F00131AB5 /* Build configuration list for PBXNativeTarget "StackImplementationUsingLinkedList" */;
+			buildPhases = (
+				EE01031426359D0F00131AB5 /* Sources */,
+				EE01031526359D0F00131AB5 /* Frameworks */,
+				EE01031626359D0F00131AB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackImplementationUsingLinkedList;
+			productName = StackImplementationUsingLinkedList;
+			productReference = EE01031826359D0F00131AB5 /* StackImplementationUsingLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE2159102633D9CB002CC2B7 /* CreateDoublyLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2159172633D9CB002CC2B7 /* Build configuration list for PBXNativeTarget "CreateDoublyLinkedList" */;
+			buildPhases = (
+				EE21590D2633D9CB002CC2B7 /* Sources */,
+				EE21590E2633D9CB002CC2B7 /* Frameworks */,
+				EE21590F2633D9CB002CC2B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateDoublyLinkedList;
+			productName = CreateDoublyLinkedList;
+			productReference = EE2159112633D9CB002CC2B7 /* CreateDoublyLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE21592426340AAB002CC2B7 /* CircularDoublyLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE21592926340AAB002CC2B7 /* Build configuration list for PBXNativeTarget "CircularDoublyLinkedList" */;
+			buildPhases = (
+				EE21592126340AAB002CC2B7 /* Sources */,
+				EE21592226340AAB002CC2B7 /* Frameworks */,
+				EE21592326340AAB002CC2B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularDoublyLinkedList;
+			productName = CircularDoublyLinkedList;
+			productReference = EE21592526340AAB002CC2B7 /* CircularDoublyLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE215939263425D2002CC2B7 /* DoublyLinkedListUsingOnePointer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE21593E263425D2002CC2B7 /* Build configuration list for PBXNativeTarget "DoublyLinkedListUsingOnePointer" */;
+			buildPhases = (
+				EE215936263425D2002CC2B7 /* Sources */,
+				EE215937263425D2002CC2B7 /* Frameworks */,
+				EE215938263425D2002CC2B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoublyLinkedListUsingOnePointer;
+			productName = DoublyLinkedListUsingOnePointer;
+			productReference = EE21593A263425D2002CC2B7 /* DoublyLinkedListUsingOnePointer */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE596D9526367F75005FB14D /* FindNthNodeFromLastInLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE596D9C26367F75005FB14D /* Build configuration list for PBXNativeTarget "FindNthNodeFromLastInLinkedList" */;
+			buildPhases = (
+				EE596D9226367F75005FB14D /* Sources */,
+				EE596D9326367F75005FB14D /* Frameworks */,
+				EE596D9426367F75005FB14D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindNthNodeFromLastInLinkedList;
+			productName = FindNthNodeFromLastInLinkedList;
+			productReference = EE596D9626367F75005FB14D /* FindNthNodeFromLastInLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
 		EE67EDC82632C1A80025E24B /* ConcatenateLinkedList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE67EDCF2632C1A90025E24B /* Build configuration list for PBXNativeTarget "ConcatenateLinkedList" */;
@@ -254,6 +605,23 @@
 			name = ConcatenateLinkedList;
 			productName = ConcatenateLinkedList;
 			productReference = EE67EDC92632C1A80025E24B /* ConcatenateLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE67EDDA2632FAC30025E24B /* CheckLinkedListIsInLoopOrNot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE67EDDF2632FAC30025E24B /* Build configuration list for PBXNativeTarget "CheckLinkedListIsInLoopOrNot" */;
+			buildPhases = (
+				EE67EDD72632FAC30025E24B /* Sources */,
+				EE67EDD82632FAC30025E24B /* Frameworks */,
+				EE67EDD92632FAC30025E24B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckLinkedListIsInLoopOrNot;
+			productName = CheckLinkedListIsInLoopOrNot;
+			productReference = EE67EDDB2632FAC30025E24B /* CheckLinkedListIsInLoopOrNot */;
 			productType = "com.apple.product-type.tool";
 		};
 		EE8F36ED262FFB090049691C /* CheckLInkedListSortedOrNot */ = {
@@ -366,7 +734,31 @@
 			attributes = {
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					EE0102E8263520DC00131AB5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE0102FF2635708300131AB5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE01031726359D0F00131AB5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE2159102633D9CB002CC2B7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE21592426340AAB002CC2B7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE215939263425D2002CC2B7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE596D9526367F75005FB14D = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					EE67EDC82632C1A80025E24B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE67EDDA2632FAC30025E24B = {
 						CreatedOnToolsVersion = 12.4;
 					};
 					EE8F36ED262FFB090049691C = {
@@ -409,16 +801,88 @@
 				EE8F36ED262FFB090049691C /* CheckLInkedListSortedOrNot */,
 				EE912E482631669300279CCB /* RemoveDuplicatesInLinkedList */,
 				EE67EDC82632C1A80025E24B /* ConcatenateLinkedList */,
+				EE67EDDA2632FAC30025E24B /* CheckLinkedListIsInLoopOrNot */,
+				EE2159102633D9CB002CC2B7 /* CreateDoublyLinkedList */,
+				EE21592426340AAB002CC2B7 /* CircularDoublyLinkedList */,
+				EE215939263425D2002CC2B7 /* DoublyLinkedListUsingOnePointer */,
+				EE0102E8263520DC00131AB5 /* UnrolledLinkedList */,
+				EE0102FF2635708300131AB5 /* SkipList */,
+				EE01031726359D0F00131AB5 /* StackImplementationUsingLinkedList */,
+				EE596D9526367F75005FB14D /* FindNthNodeFromLastInLinkedList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EE0102E5263520DC00131AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0102EC263520DD00131AB5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0102FC2635708300131AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0103032635708300131AB5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01031426359D0F00131AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE01031B26359D0F00131AB5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE21590D2633D9CB002CC2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2159142633D9CB002CC2B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE21592126340AAB002CC2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE21592826340AAB002CC2B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE215936263425D2002CC2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE21593D263425D2002CC2B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE596D9226367F75005FB14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE596D9926367F75005FB14D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE67EDC52632C1A80025E24B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE67EDCC2632C1A90025E24B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE67EDD72632FAC30025E24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67EDDE2632FAC30025E24B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +937,118 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		EE0102ED263520DD00131AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE0102EE263520DD00131AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE0103052635708300131AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE0103062635708300131AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE01031D26359D0F00131AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE01031E26359D0F00131AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE2159152633D9CB002CC2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE2159162633D9CB002CC2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE21592A26340AAB002CC2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE21592B26340AAB002CC2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE21593F263425D2002CC2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE215940263425D2002CC2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE596D9A26367F75005FB14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE596D9B26367F75005FB14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EE67EDCD2632C1A90025E24B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -482,6 +1058,22 @@
 			name = Debug;
 		};
 		EE67EDCE2632C1A90025E24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE67EDE02632FAC30025E24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE67EDE12632FAC30025E24B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -699,11 +1291,83 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EE0102EF263520DD00131AB5 /* Build configuration list for PBXNativeTarget "UnrolledLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0102ED263520DD00131AB5 /* Debug */,
+				EE0102EE263520DD00131AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0103042635708300131AB5 /* Build configuration list for PBXNativeTarget "SkipList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0103052635708300131AB5 /* Debug */,
+				EE0103062635708300131AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE01031C26359D0F00131AB5 /* Build configuration list for PBXNativeTarget "StackImplementationUsingLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE01031D26359D0F00131AB5 /* Debug */,
+				EE01031E26359D0F00131AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2159172633D9CB002CC2B7 /* Build configuration list for PBXNativeTarget "CreateDoublyLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2159152633D9CB002CC2B7 /* Debug */,
+				EE2159162633D9CB002CC2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE21592926340AAB002CC2B7 /* Build configuration list for PBXNativeTarget "CircularDoublyLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE21592A26340AAB002CC2B7 /* Debug */,
+				EE21592B26340AAB002CC2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE21593E263425D2002CC2B7 /* Build configuration list for PBXNativeTarget "DoublyLinkedListUsingOnePointer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE21593F263425D2002CC2B7 /* Debug */,
+				EE215940263425D2002CC2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE596D9C26367F75005FB14D /* Build configuration list for PBXNativeTarget "FindNthNodeFromLastInLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE596D9A26367F75005FB14D /* Debug */,
+				EE596D9B26367F75005FB14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EE67EDCF2632C1A90025E24B /* Build configuration list for PBXNativeTarget "ConcatenateLinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE67EDCD2632C1A90025E24B /* Debug */,
 				EE67EDCE2632C1A90025E24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE67EDDF2632FAC30025E24B /* Build configuration list for PBXNativeTarget "CheckLinkedListIsInLoopOrNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE67EDE02632FAC30025E24B /* Debug */,
+				EE67EDE12632FAC30025E24B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
