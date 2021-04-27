@@ -14,6 +14,10 @@
  II) it inserts element using Last Pointer
  III) it also inserts element in sorted order
  
+ 
+ Problem-15 Insert a node in a sorted linked list.
+ It contains function named insertInSortedLinkedlist which can do that
+ 
  */
 
 #include <iostream>

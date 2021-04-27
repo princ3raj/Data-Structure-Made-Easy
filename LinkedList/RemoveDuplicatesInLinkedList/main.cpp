@@ -14,11 +14,24 @@
  1 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 4 4 5 5 5 6 6 6
  Removing the Duplicates
  1 2 3 4 5 6
+ 
+ 
+ Problem-16 Reverse a singly linked list.
  Method: 1 Reversing Elements,using Recursion
  6 5 4 3 2 1
+ Time Complexity: O(n). Space Complexity: O(n),for recursive stack.
+ There is another version of Recursive function of this problem which doesn't uses a for loop.
+ 
+ 
+ 
+ Problem-16 Reverse a singly linked list.
  Method:2 Reversing Links
  1 2 3 4 5 6
- Program ended with exit code: 0
+ Time Complexity: O(n). Space Complexity: O(1).
+ 
+ 
+ 
+
  */
 
 #include <iostream>

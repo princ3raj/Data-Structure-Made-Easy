@@ -14,10 +14,13 @@
 		EE21592826340AAB002CC2B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE21592726340AAB002CC2B7 /* main.cpp */; };
 		EE21593D263425D2002CC2B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE21593C263425D2002CC2B7 /* main.cpp */; };
 		EE596D9926367F75005FB14D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE596D9826367F75005FB14D /* main.cpp */; };
+		EE596DB32636E8B8005FB14D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE596DB22636E8B8005FB14D /* main.cpp */; };
 		EE67EDCC2632C1A90025E24B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE67EDCB2632C1A90025E24B /* main.cpp */; };
 		EE67EDDE2632FAC30025E24B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE67EDDD2632FAC30025E24B /* main.cpp */; };
 		EE8F36F1262FFB090049691C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE8F36F0262FFB090049691C /* main.cpp */; };
 		EE912E4C2631669300279CCB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE912E4B2631669300279CCB /* main.cpp */; };
+		EEC89DD42637DC9E00235624 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEC89DD32637DC9E00235624 /* main.cpp */; };
+		EEC89DF02637FD7A00235624 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEC89DEF2637FD7A00235624 /* main.cpp */; };
 		EEE6C1C9262E6D6F007F2490 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C1C8262E6D6F007F2490 /* main.cpp */; };
 		EEE6C1D7262E9AC7007F2490 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C1D6262E9AC7007F2490 /* main.cpp */; };
 		EEE6C1E4262ECDDC007F2490 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C1E3262ECDDC007F2490 /* main.cpp */; };
@@ -88,6 +91,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EE596DAE2636E8B8005FB14D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EE67EDC72632C1A80025E24B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,6 +128,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EE912E472631669300279CCB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EEC89DCF2637DC9E00235624 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EEC89DEB2637FD7A00235624 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -177,6 +207,8 @@
 		EE21593C263425D2002CC2B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE596D9626367F75005FB14D /* FindNthNodeFromLastInLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FindNthNodeFromLastInLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE596D9826367F75005FB14D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE596DB02636E8B8005FB14D /* FindIntersectionPointInLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FindIntersectionPointInLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE596DB22636E8B8005FB14D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE67EDC92632C1A80025E24B /* ConcatenateLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConcatenateLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE67EDCB2632C1A90025E24B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE67EDDB2632FAC30025E24B /* CheckLinkedListIsInLoopOrNot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CheckLinkedListIsInLoopOrNot; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +217,13 @@
 		EE8F36F0262FFB090049691C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE912E492631669300279CCB /* RemoveDuplicatesInLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RemoveDuplicatesInLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE912E4B2631669300279CCB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEC89DD12637DC9E00235624 /* HashFunctionUsingSubtractionMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashFunctionUsingSubtractionMethod; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC89DD32637DC9E00235624 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEC89DED2637FD7A00235624 /* HashTable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashTable; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC89DEF2637FD7A00235624 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEC89E062638222400235624 /* chains.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chains.h; sourceTree = "<group>"; };
+		EEC89E1926382C2D00235624 /* hashtable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashtable.h; sourceTree = "<group>"; };
+		EEC89E2C26383B5C00235624 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		EEE6C1C5262E6D6F007F2490 /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE6C1C8262E6D6F007F2490 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EEE6C1D4262E9AC7007F2490 /* SearchingInLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SearchingInLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,6 +284,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE596DAD2636E8B8005FB14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE67EDC62632C1A80025E24B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +313,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EE912E462631669300279CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC89DCE2637DC9E00235624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC89DEA2637FD7A00235624 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,6 +420,16 @@
 			path = FindNthNodeFromLastInLinkedList;
 			sourceTree = "<group>";
 		};
+		EE596DB12636E8B8005FB14D /* FindIntersectionPointInLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE596DB22636E8B8005FB14D /* main.cpp */,
+				EEC89E1926382C2D00235624 /* hashtable.h */,
+				EEC89E2C26383B5C00235624 /* Stack.h */,
+			);
+			path = FindIntersectionPointInLinkedList;
+			sourceTree = "<group>";
+		};
 		EE67EDCA2632C1A80025E24B /* ConcatenateLinkedList */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +462,23 @@
 			path = RemoveDuplicatesInLinkedList;
 			sourceTree = "<group>";
 		};
+		EEC89DD22637DC9E00235624 /* HashFunctionUsingSubtractionMethod */ = {
+			isa = PBXGroup;
+			children = (
+				EEC89DD32637DC9E00235624 /* main.cpp */,
+			);
+			path = HashFunctionUsingSubtractionMethod;
+			sourceTree = "<group>";
+		};
+		EEC89DEE2637FD7A00235624 /* HashTable */ = {
+			isa = PBXGroup;
+			children = (
+				EEC89DEF2637FD7A00235624 /* main.cpp */,
+				EEC89E062638222400235624 /* chains.h */,
+			);
+			path = HashTable;
+			sourceTree = "<group>";
+		};
 		EEE6C1BC262E6D6F007F2490 = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +497,9 @@
 				EE0103012635708300131AB5 /* SkipList */,
 				EE01031926359D0F00131AB5 /* StackImplementationUsingLinkedList */,
 				EE596D9726367F75005FB14D /* FindNthNodeFromLastInLinkedList */,
+				EE596DB12636E8B8005FB14D /* FindIntersectionPointInLinkedList */,
+				EEC89DD22637DC9E00235624 /* HashFunctionUsingSubtractionMethod */,
+				EEC89DEE2637FD7A00235624 /* HashTable */,
 				EEE6C1C6262E6D6F007F2490 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -432,6 +522,9 @@
 				EE0103002635708300131AB5 /* SkipList */,
 				EE01031826359D0F00131AB5 /* StackImplementationUsingLinkedList */,
 				EE596D9626367F75005FB14D /* FindNthNodeFromLastInLinkedList */,
+				EE596DB02636E8B8005FB14D /* FindIntersectionPointInLinkedList */,
+				EEC89DD12637DC9E00235624 /* HashFunctionUsingSubtractionMethod */,
+				EEC89DED2637FD7A00235624 /* HashTable */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -590,6 +683,23 @@
 			productReference = EE596D9626367F75005FB14D /* FindNthNodeFromLastInLinkedList */;
 			productType = "com.apple.product-type.tool";
 		};
+		EE596DAF2636E8B8005FB14D /* FindIntersectionPointInLinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE596DB42636E8B8005FB14D /* Build configuration list for PBXNativeTarget "FindIntersectionPointInLinkedList" */;
+			buildPhases = (
+				EE596DAC2636E8B8005FB14D /* Sources */,
+				EE596DAD2636E8B8005FB14D /* Frameworks */,
+				EE596DAE2636E8B8005FB14D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindIntersectionPointInLinkedList;
+			productName = FindIntersectionPointInLinkedList;
+			productReference = EE596DB02636E8B8005FB14D /* FindIntersectionPointInLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
 		EE67EDC82632C1A80025E24B /* ConcatenateLinkedList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE67EDCF2632C1A90025E24B /* Build configuration list for PBXNativeTarget "ConcatenateLinkedList" */;
@@ -656,6 +766,40 @@
 			name = RemoveDuplicatesInLinkedList;
 			productName = RemoveDuplicatesInLinkedList;
 			productReference = EE912E492631669300279CCB /* RemoveDuplicatesInLinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
+		EEC89DD02637DC9E00235624 /* HashFunctionUsingSubtractionMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC89DD72637DC9E00235624 /* Build configuration list for PBXNativeTarget "HashFunctionUsingSubtractionMethod" */;
+			buildPhases = (
+				EEC89DCD2637DC9E00235624 /* Sources */,
+				EEC89DCE2637DC9E00235624 /* Frameworks */,
+				EEC89DCF2637DC9E00235624 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashFunctionUsingSubtractionMethod;
+			productName = HashFunctionUsingSubtractionMethod;
+			productReference = EEC89DD12637DC9E00235624 /* HashFunctionUsingSubtractionMethod */;
+			productType = "com.apple.product-type.tool";
+		};
+		EEC89DEC2637FD7A00235624 /* HashTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC89DF12637FD7A00235624 /* Build configuration list for PBXNativeTarget "HashTable" */;
+			buildPhases = (
+				EEC89DE92637FD7A00235624 /* Sources */,
+				EEC89DEA2637FD7A00235624 /* Frameworks */,
+				EEC89DEB2637FD7A00235624 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashTable;
+			productName = HashTable;
+			productReference = EEC89DED2637FD7A00235624 /* HashTable */;
 			productType = "com.apple.product-type.tool";
 		};
 		EEE6C1C4262E6D6F007F2490 /* LinkedList */ = {
@@ -755,6 +899,9 @@
 					EE596D9526367F75005FB14D = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					EE596DAF2636E8B8005FB14D = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					EE67EDC82632C1A80025E24B = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -765,6 +912,12 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					EE912E482631669300279CCB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EEC89DD02637DC9E00235624 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EEC89DEC2637FD7A00235624 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 					EEE6C1C4262E6D6F007F2490 = {
@@ -809,6 +962,9 @@
 				EE0102FF2635708300131AB5 /* SkipList */,
 				EE01031726359D0F00131AB5 /* StackImplementationUsingLinkedList */,
 				EE596D9526367F75005FB14D /* FindNthNodeFromLastInLinkedList */,
+				EE596DAF2636E8B8005FB14D /* FindIntersectionPointInLinkedList */,
+				EEC89DD02637DC9E00235624 /* HashFunctionUsingSubtractionMethod */,
+				EEC89DEC2637FD7A00235624 /* HashTable */,
 			);
 		};
 /* End PBXProject section */
@@ -870,6 +1026,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE596DAC2636E8B8005FB14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE596DB32636E8B8005FB14D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE67EDC52632C1A80025E24B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -899,6 +1063,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE912E4C2631669300279CCB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC89DCD2637DC9E00235624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC89DD42637DC9E00235624 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC89DE92637FD7A00235624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC89DF02637FD7A00235624 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1049,6 +1229,22 @@
 			};
 			name = Release;
 		};
+		EE596DB52636E8B8005FB14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE596DB62636E8B8005FB14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EE67EDCD2632C1A90025E24B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1106,6 +1302,38 @@
 			name = Debug;
 		};
 		EE912E4E2631669300279CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEC89DD52637DC9E00235624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEC89DD62637DC9E00235624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEC89DF22637FD7A00235624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEC89DF32637FD7A00235624 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1354,6 +1582,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EE596DB42636E8B8005FB14D /* Build configuration list for PBXNativeTarget "FindIntersectionPointInLinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE596DB52636E8B8005FB14D /* Debug */,
+				EE596DB62636E8B8005FB14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EE67EDCF2632C1A90025E24B /* Build configuration list for PBXNativeTarget "ConcatenateLinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1386,6 +1623,24 @@
 			buildConfigurations = (
 				EE912E4D2631669300279CCB /* Debug */,
 				EE912E4E2631669300279CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC89DD72637DC9E00235624 /* Build configuration list for PBXNativeTarget "HashFunctionUsingSubtractionMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC89DD52637DC9E00235624 /* Debug */,
+				EEC89DD62637DC9E00235624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC89DF12637FD7A00235624 /* Build configuration list for PBXNativeTarget "HashTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC89DF22637FD7A00235624 /* Debug */,
+				EEC89DF32637FD7A00235624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
