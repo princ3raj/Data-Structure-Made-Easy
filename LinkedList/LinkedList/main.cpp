@@ -14,6 +14,11 @@
  
  */
 
+/*
+ 
+  For Linked List  there are 54 Problems in Narshimma Karamuchi including different approaches numbers as well
+ */
+
 int CountNodes=0;
 
 int result=0;

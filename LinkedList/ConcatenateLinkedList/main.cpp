@@ -28,6 +28,21 @@ This program is using 4 pointers third and last fourth and second
  
  */
 
+
+/*
+ 
+ Problem-31 Given two sorted Linked Lists, how to merge them into the third list in sorted
+ order?
+ 
+ solution is done here in the merge function
+ 
+ There is a recursive solution for this question which i didn't code or say i don't know.
+ but i'll try it out when i see it the next time
+ 
+ In Both Solutions Complexity will be
+ Time Complexity: O(n + m), where n and m are lengths of two lists.
+ */
+
 #include <iostream>
 using namespace std;
 

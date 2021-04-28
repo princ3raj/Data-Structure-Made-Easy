@@ -88,6 +88,23 @@
  appears in the array is nothing but the merging point.
  Time Complexity: Time for sorting + Time for searching = O(Max(mlogm, nlogn)).
  Space Complexity: O(Max(m, n)).
+ However, my code for this approach is not efficient as i have used bubble sort in place of merge sort
+ 
+ */
+
+
+/*
+ 
+ 
+ Problem-23 Can we improve the complexity for Problem-17?
+ Solution: Yes.
+ Efficient Approach:
+ • Find lengths (L1 and L2) of both lists - O(n) + O(m) = O(max(m, n)).
+ • Take the difference d of the lengths -- O(1).
+ • Make d steps in longer list -- O(d).
+ • Step in both lists in parallel until links to next node match -- O(min(m, n)).
+ • Total time complexity = O(max(m, n)).
+ • Space Complexity = O(1).
  
  */
 
@@ -323,6 +340,154 @@ void FindIntersectionUsingArray(Node *s){
     
 }
 
+void swap(long *xp, long *yp)
+{
+    long temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+
+// A function to implement bubble sort
+void bubbleSort(long arr[], int n)
+{
+    int i, j;
+    for (i = 0; i < n-1; i++)
+      
+    // Last i elements are already in place
+    for (j = 0; j < n-i-1; j++)
+        if (arr[j] > arr[j+1])
+            swap(&arr[j], &arr[j+1]);
+}
+
+
+int binarySearch(long arr[], int l, int r, long x)
+{
+    if (r >= l) {
+        int mid = l + (r - l) / 2;
+ 
+        // If the element is present at the middle
+        // itself
+        if (arr[mid] == x)
+            return mid;
+ 
+        // If element is smaller than mid, then
+        // it can only be present in left subarray
+        if (arr[mid] > x)
+            return binarySearch(arr, l, mid - 1, x);
+ 
+        // Else the element can only be present
+        // in right subarray
+        return binarySearch(arr, mid + 1, r, x);
+    }
+ 
+    // We reach here when element is not
+    // present in array
+    return -1;
+}
+
+
+
+void FindIntersectionUsingSortingAndSearching(Node *p, Node *q){
+    int index=0;
+    long arr[5];
+    for(int i=0;i<5;i++){
+        
+        arr[i]=ConvertHexToLongInteger(p);
+        p=p->next;
+        
+    }
+    
+    bubbleSort(arr, 5);
+    
+    for(int j=0;j<5;j++)
+    cout<<arr[j]<<" ";
+    
+    cout<<endl;
+    
+    
+    while(q!=NULL){
+        
+        
+        long result=ConvertHexToLongInteger(q);
+        index=binarySearch(arr, 0, 4, result);
+        
+        if(index!=-1){
+            cout<<"Intersection happens at this address "<<arr[index]<<endl;
+            break;
+        }
+        
+        q=q->next;
+        
+        
+     
+    
+
+}
+    long pointer_long_address=arr[index];
+    
+    
+    p=first;
+    while(p){
+        
+        
+        if(ConvertHexToLongInteger(p)==pointer_long_address){
+            cout<<"Intersection address: "<<p<<" Data is :"<<p->data<<endl;
+            break;
+        }
+        
+        p=p->next;
+    }
+    
+}
+
+
+void EfficientApproach(Node *p, Node *q){
+    int first_pointer_length=0;
+    int second_pointer_length=0;
+    
+    while(p){
+        p=p->next;
+        first_pointer_length++;
+    
+    }
+    
+    
+    while(q){
+        
+        second_pointer_length++;
+        q=q->next;
+    }
+    
+
+    int difference=abs(first_pointer_length-second_pointer_length);
+    
+    p=first;
+    q=second;
+    
+    for(int j=1;j<difference;j++){
+        q=q->next;
+    }
+    
+    cout<<q->data<<endl;
+    
+    //q is assigned next again so, it can come in parallel with p
+    //and when they become equal loop exits
+    q=q->next;
+    while(p!=q && p!=NULL){
+        
+        p=p->next;
+        q=q->next;
+        
+    }
+    
+    cout<<"Intersect at address "<<p<<" data is :"<<p->data<<endl;
+    
+    
+    
+    
+    
+}
+
 
 
 
@@ -381,6 +546,14 @@ int main() {
     
     cout<<endl;
     FindIntersectionUsingArray(second);
+    
+    
+    FindIntersectionUsingSortingAndSearching(first,second);
+    
+    
+    cout<<"**********Efficient Approach*********"<<endl;
+    
+    EfficientApproach(first, second);
     
     
 
