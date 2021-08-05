@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EE7B75A026BA58F200843BF2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7B759F26BA58F200843BF2 /* main.cpp */; };
+		EEEC28DD26BBBA2A00586DB2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEEC28DC26BBBA2A00586DB2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EE7B759A26BA58F200843BF2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EEEC28D826BBBA2A00586DB2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		EE7B759C26BA58F200843BF2 /* Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Queue; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7B759F26BA58F200843BF2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEEC28DA26BBBA2A00586DB2 /* ReverseQueueWithQueueAdtOnly */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReverseQueueWithQueueAdtOnly; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEC28DC26BBBA2A00586DB2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EE7B759926BA58F200843BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEC28D726BBBA2A00586DB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				EE7B759E26BA58F200843BF2 /* Queue */,
+				EEEC28DB26BBBA2A00586DB2 /* ReverseQueueWithQueueAdtOnly */,
 				EE7B759D26BA58F200843BF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				EE7B759C26BA58F200843BF2 /* Queue */,
+				EEEC28DA26BBBA2A00586DB2 /* ReverseQueueWithQueueAdtOnly */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				EE7B759F26BA58F200843BF2 /* main.cpp */,
 			);
 			path = Queue;
+			sourceTree = "<group>";
+		};
+		EEEC28DB26BBBA2A00586DB2 /* ReverseQueueWithQueueAdtOnly */ = {
+			isa = PBXGroup;
+			children = (
+				EEEC28DC26BBBA2A00586DB2 /* main.cpp */,
+			);
+			path = ReverseQueueWithQueueAdtOnly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = EE7B759C26BA58F200843BF2 /* Queue */;
 			productType = "com.apple.product-type.tool";
 		};
+		EEEC28D926BBBA2A00586DB2 /* ReverseQueueWithQueueAdtOnly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEC28E026BBBA2A00586DB2 /* Build configuration list for PBXNativeTarget "ReverseQueueWithQueueAdtOnly" */;
+			buildPhases = (
+				EEEC28D626BBBA2A00586DB2 /* Sources */,
+				EEEC28D726BBBA2A00586DB2 /* Frameworks */,
+				EEEC28D826BBBA2A00586DB2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseQueueWithQueueAdtOnly;
+			productName = ReverseQueueWithQueueAdtOnly;
+			productReference = EEEC28DA26BBBA2A00586DB2 /* ReverseQueueWithQueueAdtOnly */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,6 +137,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					EE7B759B26BA58F200843BF2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EEEC28D926BBBA2A00586DB2 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -109,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				EE7B759B26BA58F200843BF2 /* Queue */,
+				EEEC28D926BBBA2A00586DB2 /* ReverseQueueWithQueueAdtOnly */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7B75A026BA58F200843BF2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEC28D626BBBA2A00586DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEC28DD26BBBA2A00586DB2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +310,22 @@
 			};
 			name = Release;
 		};
+		EEEC28DE26BBBA2A00586DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEEC28DF26BBBA2A00586DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -269,6 +343,15 @@
 			buildConfigurations = (
 				EE7B75A426BA58F200843BF2 /* Debug */,
 				EE7B75A526BA58F200843BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEC28E026BBBA2A00586DB2 /* Build configuration list for PBXNativeTarget "ReverseQueueWithQueueAdtOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEC28DE26BBBA2A00586DB2 /* Debug */,
+				EEEC28DF26BBBA2A00586DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
