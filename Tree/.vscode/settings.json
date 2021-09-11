@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.pynb": "python",
+        "*.html": "html",
+        "iostream": "cpp",
+        "queue": "cpp"
+    }
+}

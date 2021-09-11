@@ -1,0 +1,1 @@
+{"name":"Local: SizeOfBinaryTree","url":"/Users/princeraj/Tree/SizeOfBinaryTree.cpp","tests":[{"id":1630319362932,"input":"5 2 3 -1 4 -1 6 -1 -1 -1 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/princeraj/Tree/SizeOfBinaryTree.cpp","group":"local","local":true}
